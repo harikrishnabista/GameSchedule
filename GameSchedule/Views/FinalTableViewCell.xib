@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="LeagueGothic-Regular.otf">
+            <string>LeagueGothic-Regular</string>
+        </array>
+        <array key="Maven Pro Regular.otf">
+            <string>MavenProRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FinalTableViewCell" rowHeight="194" id="QOs-ga-6a6" customClass="FinalTableViewCell" customModule="GameSchedule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="516" height="195"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QOs-ga-6a6" id="LOd-0m-St0">
+                <rect key="frame" x="0.0" y="0.0" width="516" height="194.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lc-3j-f8B">
+                        <rect key="frame" x="15" y="20" width="486" height="154.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JETS" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6L-4l-nqj">
+                                <rect key="frame" x="243" y="0.0" width="243" height="42"/>
+                                <fontDescription key="fontDescription" name="LeagueGothic-Regular" family="League Gothic" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUCCANEERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHf-Yo-S4j">
+                                <rect key="frame" x="0.0" y="0.0" width="243" height="67.5"/>
+                                <fontDescription key="fontDescription" name="LeagueGothic-Regular" family="League Gothic" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1Z-qe-nit">
+                                <rect key="frame" x="0.0" y="73" width="118" height="54"/>
+                                <fontDescription key="fontDescription" name="LeagueGothic-Regular" family="League Gothic" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgx-nj-XD8">
+                                <rect key="frame" x="123" y="69.5" width="240" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconvs" translatesAutoresizingMaskIntoConstraints="NO" id="oth-i6-IBJ">
+                                        <rect key="frame" x="102.5" y="12.5" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="HfV-eO-Wqg"/>
+                                            <constraint firstAttribute="width" constant="35" id="zfy-Ju-Nhw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconbucca" translatesAutoresizingMaskIntoConstraints="NO" id="YEv-Bg-BII">
+                                        <rect key="frame" x="32.5" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="CnW-nB-27E"/>
+                                            <constraint firstAttribute="width" constant="60" id="Rud-eV-zIb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconjets" translatesAutoresizingMaskIntoConstraints="NO" id="mZf-Rh-t5H">
+                                        <rect key="frame" x="147.5" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="F0L-vM-Cdc"/>
+                                            <constraint firstAttribute="width" constant="60" id="caD-4K-26O"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oth-i6-IBJ" firstAttribute="leading" secondItem="YEv-Bg-BII" secondAttribute="trailing" constant="10" id="1ZT-9C-x46"/>
+                                    <constraint firstAttribute="height" constant="60" id="8y1-V8-Kf8"/>
+                                    <constraint firstItem="mZf-Rh-t5H" firstAttribute="leading" secondItem="oth-i6-IBJ" secondAttribute="trailing" constant="10" id="E7i-GS-tYj"/>
+                                    <constraint firstItem="oth-i6-IBJ" firstAttribute="centerX" secondItem="kgx-nj-XD8" secondAttribute="centerX" id="Jpw-pN-oVP"/>
+                                    <constraint firstItem="YEv-Bg-BII" firstAttribute="centerY" secondItem="oth-i6-IBJ" secondAttribute="centerY" id="hxC-mL-KFN"/>
+                                    <constraint firstItem="oth-i6-IBJ" firstAttribute="centerY" secondItem="kgx-nj-XD8" secondAttribute="centerY" id="iQN-Nw-jih"/>
+                                    <constraint firstItem="mZf-Rh-t5H" firstAttribute="centerY" secondItem="oth-i6-IBJ" secondAttribute="centerY" id="uyE-gb-ryP"/>
+                                    <constraint firstAttribute="width" constant="240" id="xbM-ve-JM8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLg-pz-Njb">
+                                <rect key="frame" x="368" y="73" width="118" height="54"/>
+                                <fontDescription key="fontDescription" name="LeagueGothic-Regular" family="League Gothic" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun, Sep 8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v55-ks-guY">
+                                <rect key="frame" x="0.0" y="133" width="178" height="20.5"/>
+                                <fontDescription key="fontDescription" name="MavenProRegular" family="Maven Pro" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preseason 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptc-QT-paT">
+                                <rect key="frame" x="183" y="131.5" width="120" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="85O-cy-0MK"/>
+                                    <constraint firstAttribute="height" constant="23" id="BGJ-7S-EO9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MavenProRegular" family="Maven Pro" pointSize="18"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FINAL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYh-q3-TiN">
+                                <rect key="frame" x="308" y="133" width="178" height="20.5"/>
+                                <fontDescription key="fontDescription" name="MavenProRegular" family="Maven Pro" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U1Z-qe-nit" firstAttribute="centerY" secondItem="kgx-nj-XD8" secondAttribute="centerY" id="0hR-o8-8fZ"/>
+                            <constraint firstItem="kgx-nj-XD8" firstAttribute="top" secondItem="uHf-Yo-S4j" secondAttribute="bottom" constant="2" id="3a8-Fy-COr"/>
+                            <constraint firstItem="ptc-QT-paT" firstAttribute="centerX" secondItem="6lc-3j-f8B" secondAttribute="centerX" id="Bcb-y4-BXM"/>
+                            <constraint firstItem="J6L-4l-nqj" firstAttribute="top" secondItem="6lc-3j-f8B" secondAttribute="top" id="D3b-wV-r81"/>
+                            <constraint firstItem="ptc-QT-paT" firstAttribute="top" secondItem="kgx-nj-XD8" secondAttribute="bottom" constant="2" id="EVs-eZ-ypN"/>
+                            <constraint firstAttribute="trailing" secondItem="J6L-4l-nqj" secondAttribute="trailing" id="GJz-li-3Hm"/>
+                            <constraint firstItem="ptc-QT-paT" firstAttribute="leading" secondItem="v55-ks-guY" secondAttribute="trailing" constant="5" id="H4a-hy-LwZ"/>
+                            <constraint firstItem="J6L-4l-nqj" firstAttribute="leading" secondItem="uHf-Yo-S4j" secondAttribute="trailing" id="Hm2-zx-vx7"/>
+                            <constraint firstItem="kgx-nj-XD8" firstAttribute="leading" secondItem="U1Z-qe-nit" secondAttribute="trailing" constant="5" id="Mgt-VC-U78"/>
+                            <constraint firstItem="pYh-q3-TiN" firstAttribute="centerY" secondItem="ptc-QT-paT" secondAttribute="centerY" id="O4l-Pm-6f2"/>
+                            <constraint firstAttribute="trailing" secondItem="pYh-q3-TiN" secondAttribute="trailing" id="U1s-Ug-snj"/>
+                            <constraint firstItem="pYh-q3-TiN" firstAttribute="leading" secondItem="ptc-QT-paT" secondAttribute="trailing" constant="5" id="jby-Ld-PuK"/>
+                            <constraint firstItem="uHf-Yo-S4j" firstAttribute="leading" secondItem="6lc-3j-f8B" secondAttribute="leading" id="jg6-HE-hsG"/>
+                            <constraint firstItem="bLg-pz-Njb" firstAttribute="leading" secondItem="kgx-nj-XD8" secondAttribute="trailing" constant="5" id="kPk-A8-ZnN"/>
+                            <constraint firstItem="v55-ks-guY" firstAttribute="centerY" secondItem="ptc-QT-paT" secondAttribute="centerY" id="nk6-mu-FgM"/>
+                            <constraint firstItem="uHf-Yo-S4j" firstAttribute="top" secondItem="6lc-3j-f8B" secondAttribute="top" id="otp-O9-Q9Z"/>
+                            <constraint firstItem="J6L-4l-nqj" firstAttribute="width" secondItem="uHf-Yo-S4j" secondAttribute="width" id="qUO-PK-nnK"/>
+                            <constraint firstItem="U1Z-qe-nit" firstAttribute="leading" secondItem="6lc-3j-f8B" secondAttribute="leading" id="qvx-h0-aaO"/>
+                            <constraint firstAttribute="bottom" secondItem="ptc-QT-paT" secondAttribute="bottom" id="sHD-1W-A89"/>
+                            <constraint firstItem="bLg-pz-Njb" firstAttribute="centerY" secondItem="kgx-nj-XD8" secondAttribute="centerY" id="tvh-zY-EkY"/>
+                            <constraint firstItem="v55-ks-guY" firstAttribute="leading" secondItem="6lc-3j-f8B" secondAttribute="leading" id="vek-1V-ogx"/>
+                            <constraint firstAttribute="trailing" secondItem="bLg-pz-Njb" secondAttribute="trailing" id="zFv-jX-L4F"/>
+                            <constraint firstItem="kgx-nj-XD8" firstAttribute="centerX" secondItem="6lc-3j-f8B" secondAttribute="centerX" id="zLo-8c-Gm7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6lc-3j-f8B" firstAttribute="centerY" secondItem="LOd-0m-St0" secondAttribute="centerY" id="4Pe-Ol-ayq"/>
+                    <constraint firstItem="6lc-3j-f8B" firstAttribute="top" secondItem="LOd-0m-St0" secondAttribute="top" constant="20" id="Fvn-Hh-7Yj"/>
+                    <constraint firstItem="6lc-3j-f8B" firstAttribute="leading" secondItem="LOd-0m-St0" secondAttribute="leading" constant="15" id="GCB-wP-aib"/>
+                    <constraint firstAttribute="trailing" secondItem="6lc-3j-f8B" secondAttribute="trailing" constant="15" id="eW9-eX-AuI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgHomeLogo" destination="YEv-Bg-BII" id="lny-ye-KR6"/>
+                <outlet property="imgOpponentLogo" destination="mZf-Rh-t5H" id="btT-5A-blN"/>
+                <outlet property="lblDate" destination="v55-ks-guY" id="oxt-gy-k5B"/>
+                <outlet property="lblGameType" destination="pYh-q3-TiN" id="Ivo-L9-kMw"/>
+                <outlet property="lblHomeScore" destination="U1Z-qe-nit" id="OEQ-8v-WeB"/>
+                <outlet property="lblOpponentName" destination="J6L-4l-nqj" id="VQp-D5-cVE"/>
+                <outlet property="lblOpponentScore" destination="bLg-pz-Njb" id="ogn-3T-kSH"/>
+                <outlet property="lblTeamName" destination="uHf-Yo-S4j" id="5fG-2h-i8G"/>
+                <outlet property="lblWeek" destination="ptc-QT-paT" id="avJ-dF-0cO"/>
+            </connections>
+            <point key="canvasLocation" x="-286" y="-256.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="iconbucca" width="50" height="50"/>
+        <image name="iconjets" width="50" height="29"/>
+        <image name="iconvs" width="50" height="50"/>
+    </resources>
+</document>

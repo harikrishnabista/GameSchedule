@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ScheduleParser.parser(_:didEndElement:namespaceURI:qualifiedName:):ScheduleParser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentGameSection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleViewController.btnMenuTapped():ScheduleViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "menuView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

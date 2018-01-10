@@ -22,9 +22,9 @@ class Team {
     func getLogo(completion:@escaping (_ image:UIImage?,_ url:String) -> Void) -> URLSessionTask? {
         if let url = URL(string:self.getLogoUrl()) {
             print("downloading image from: \(url.absoluteString)")
-            return ApiCaller().getImageFrom(url: url) { (img) in
-                completion(img, url.absoluteString)
-            }
+//            return ApiCaller(delegate:self).getImageFrom(url: url) { (img) in
+//                completion(img, url.absoluteString)
+//            }
         }
         
         return nil

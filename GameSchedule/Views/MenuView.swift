@@ -22,8 +22,8 @@ class MenuView: UIView,UIGestureRecognizerDelegate {
     var NibName:String = "MenuView";
     
     @IBOutlet weak var imgProfile: UIImageView!
-    var delegate: SlidePanelCallBack?;
-    var direction: SlidePanelDirection?;
+    var delegate: SlidePanelCallBack?
+    var direction: SlidePanelDirection?
     
     @IBOutlet weak var switchDarkTheme: UISwitch!
     @IBOutlet var view: UIView!

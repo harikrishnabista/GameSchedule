@@ -34,6 +34,7 @@
 		F1AE6A472005CBAC00F3A6C3 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AE6A452005CBAC00F3A6C3 /* GameViewController.xib */; };
 		F1AE6A4A2005CE0100F3A6C3 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AE6A482005CE0000F3A6C3 /* MenuView.xib */; };
 		F1AE6A4B2005CE0100F3A6C3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE6A492005CE0000F3A6C3 /* MenuView.swift */; };
+		F1E3B3DF2006059E00C78C2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3B3DE2006059E00C78C2F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		F1AE6A452005CBAC00F3A6C3 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		F1AE6A482005CE0000F3A6C3 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 		F1AE6A492005CE0000F3A6C3 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F1E3B3DE2006059E00C78C2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				F1AE6A382003646800F3A6C3 /* Constants.swift */,
+				F1E3B3DE2006059E00C78C2F /* Extensions.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				F1AE6A3B200473E300F3A6C3 /* GameSection.swift in Sources */,
 				F195C4812001EF1500726F33 /* ApiCaller.swift in Sources */,
 				F1AE6A4B2005CE0100F3A6C3 /* MenuView.swift in Sources */,
+				F1E3B3DF2006059E00C78C2F /* Extensions.swift in Sources */,
 				F195C43E2001DB8800726F33 /* AppDelegate.swift in Sources */,
 				F195C4832001F84400726F33 /* Game.swift in Sources */,
 				F1AE6A402004B9C600F3A6C3 /* LoadingView.swift in Sources */,

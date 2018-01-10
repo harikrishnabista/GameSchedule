@@ -26,7 +26,6 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
         let btnMenu: UIButton = UIButton(type: UIButtonType.custom)
         btnMenu.setImage(UIImage(named: "iconMenu"), for: .normal)
         
@@ -68,24 +67,11 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func loadGameSchedule() {
-
         let urlComp = URLComponents(string: Constants.HTTP.scheduleUrl)
         
         if let url = urlComp?.url {
-            
             self.view.showLoading()
-            
-            ApiCaller().getDataFromUrl(url: url) { (data, resp, err) in
-
-                 self.view.hideLoading()
-
-                if let data = data {
-                    if let gSchedule = ScheduleParser().getGameSchedule(scheduleData: data) {
-                        self.gameSections = gSchedule
-                        self.tableView.reloadData()
-                    }
-                }
-            }
+            ApiCaller(delegate: self).getDataFromUrl(url: url)
         }
     }
     
@@ -264,5 +250,18 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
         let gameViewCon = GameViewController.init(nibName: "GameViewController", bundle: nil);
         
         self.navigationController?.pushViewController(gameViewCon, animated: true)
+    }
+    
+    // delegate call back method when asyc call ends this function gets called
+    func scheduleUpdated(data:Data?, resp:URLResponse?, err:Error?) {
+        
+        self.view.hideLoading()
+        
+        if let data = data {
+            if let gSchedule = ScheduleParser().getGameSchedule(scheduleData: data) {
+                self.gameSections = gSchedule
+                self.tableView.reloadData()
+            }
+        }
     }
 }
